@@ -1,4 +1,3 @@
-
 package oop;
 public class Class_Conta {
     
@@ -14,6 +13,10 @@ public class Class_Conta {
     
     void deposita(double quantidade){
         this.saldo += quantidade;        
+    }
+    
+    void setSaldo(double saldo){
+        this.saldo = saldo;
     }
   
 }
