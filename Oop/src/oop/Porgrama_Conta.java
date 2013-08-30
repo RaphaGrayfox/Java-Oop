@@ -1,4 +1,3 @@
-
 package oop;
 
 import javax.swing.JOptionPane;
@@ -14,7 +13,8 @@ public class Porgrama_Conta {
         minhaConta = new Class_Conta();
         minhaConta.cliente = JOptionPane.showInputDialog("Digite o seu Nome :");
        
-       minhaConta.saldo = 5000.00;
+       //minhaConta.saldo = 5000.00;
+       minhaConta.setSaldo(5000.00);
        
        vAcao = Integer.parseInt(JOptionPane.showInputDialog("O que você deseja fazer ? \n\n 1- Sacar \n 2- Depositar \n 3- Estrato \n\n Seu saldo é de "+  minhaConta.saldo));
        
